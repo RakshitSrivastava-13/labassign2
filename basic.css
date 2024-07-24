@@ -1,0 +1,28 @@
+/* .container > div{
+    border: 3px solid aqua;
+    display:flex;
+    justify-content:content;
+    align-item:center;
+
+}
+
+.container > div > img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    
+}
+
+.hor{
+    grid-column: span 2;
+}
+
+.ver{
+    grid-row: span 2;
+
+}
+
+.big{
+    grid-column: span 2;
+    grid-row: span 2;
+} */

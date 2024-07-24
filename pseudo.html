@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Pseudo-classes Example</title>
+<style>
+  /* CSS styles using pseudo-classes */
+  
+  /* Style for links */
+  a {
+    color: #007bff; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  /* Hover effect for links */
+  a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Active effect for links */
+  a:active {
+    color: #ff6600; /* Orange color when clicked */
+  }
+  
+  /* Focus effect for input fields */
+  input:focus {
+    border-color: #007bff; /* Blue border when focused */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Light blue shadow */
+  }
+  
+  /* Alternate row styling for a list */
+  ul li:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+    padding: 5px;
+  }
+</style>
+</head>
+<body>
+
+<h1>CSS Pseudo-classes Example</h1>
+
+<p>Hover over the <a href="#">link</a> to see the hover effect.</p>
+
+<p>Click on the <a href="#">link</a> to see the active effect.</p>
+
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+</form>
+
+<h2>List Example</h2>
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+  <li>Item 4</li>
+  <li>Item 5</li>
+</ul>
+
+<a href="htmlStructure.html">Back to main page.</a>
+</body>
+</html>
